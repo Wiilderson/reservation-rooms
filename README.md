@@ -1,10 +1,10 @@
-# Sistema de Reservas de Salas de Reunião
+# Sistema de Reservas de Salas
 
 Este projeto permite gerenciar reservas de salas de reunião, garantindo que não haja sobreposição de horários. Ele é composto por um backend em Laravel e um frontend em React.
 
 ---
 
-## Requisitos
+## Requisitos do desenvolvimento
 
 ### Backend
 - **PHP**: 8.0 ou superior
@@ -16,6 +16,7 @@ Este projeto permite gerenciar reservas de salas de reunião, garantindo que nã
 - **Node.js**: 18.x ou superior
 - **NPM**: 9.x ou superior
 - **React**: 18.x
+- **Vite**: 5.x
 
 ---
 
@@ -103,3 +104,8 @@ Este projeto permite gerenciar reservas de salas de reunião, garantindo que nã
      ```bash
      curl -X GET http://localhost:8000/api/reservations
 
+3. Cancelar Reserva
+   - URL: DELETE /api/reservations/cancel/{id}
+   - Exemplo:
+     ```bash
+     curl -X DELETE http://localhost:8000/api/reservations/cancel/1
