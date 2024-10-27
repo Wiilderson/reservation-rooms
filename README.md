@@ -4,7 +4,7 @@ Este projeto permite gerenciar reservas de salas de reunião, garantindo que nã
 
 ---
 
-## Requisitos do desenvolvimento
+## Requisitos do ambiente de desenvolvimento
 
 ### Backend
 - **PHP**: 8.0 ou superior
